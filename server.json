@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/fara",
+  "title": "Fara",
+  "description": "FARA (Foreign Agents Registration Act) MCP.",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/fara",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-fara",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/fara/mcp"
+    }
+  ]
+}
